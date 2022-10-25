@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;overflow: hidden;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:black;
+    overflow: hidden;
+  }
+  .news{
+    margin-left:1180px;
+  }
+  .newss{
+    margin-left:1px;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    /* background-color:#6657d5; */
+    color: white;
+  }
+  
+body {
+	background: linear-gradient(90deg, #C7C5F4, #776BCC);		
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.screen {		
+	background: linear-gradient(90deg, #5D54A4, #7C78B8);	
+
+	position: relative;	
+	height: 260px;
+	width: 400px;
+    margin-bottom: 70px;	
+    border-radius: 20px;
+	box-shadow: 0px 9px 24px #ada8dd;
+    padding: 10px;
+}
+h2{
+    margin-top: 10px;
+    margin-left: 170px;
+}
+p{
+    margin-top: 60px;
+    font-size: 29px;
+    margin-left: 60px;
+}
+.button_plus {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    cursor: pointer;
+    /* border: 2px solid #095776; */
+  
+    /* Mittig */
+    /* top: 50%;
+    /* left: 50%; * */
+    margin-top: 65px;
+    margin-left:10px ;
+  }
+  
+  .button_plus:after {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 4px;
+    width: 50%;
+    background: black;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .button_plus:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 50%;
+    width: 4px;
+  }
+  
+  .button_plus:hover:before,
+  .button_plus:hover:after {
+    background: #fff;
+    transition: 0.2s;
+  }
+  
+
+
+  h3{margin-top: 20px;
+margin-left: 15px;}
